@@ -16,6 +16,24 @@ import os
 import subprocess
 
 
+HDR_TRANSFERS = {"arib-std-b67", "smpte2084"}  # iPhone HLG / HDR10
+
+
+def sdr_input(raw, project):
+    """iPhones film HDR (HLG) by default. A plain ffmpeg transcode of HLG comes out pale and washed out, so HDR
+    sources are first converted with Apple's own tone mapping (avconvert — same look as Photos) to <P>/raw_sdr.mov.
+    Timing is unchanged, so transcript times still match. Returns the path to cut from."""
+    t = subprocess.run(["ffprobe", "-v", "error", "-select_streams", "v:0", "-show_entries", "stream=color_transfer",
+                        "-of", "csv=p=0", raw], capture_output=True, text=True).stdout.strip().strip(",")
+    if t not in HDR_TRANSFERS:
+        return raw
+    dst = os.path.join(project, "raw_sdr.mov")
+    if not os.path.exists(dst) or os.path.getmtime(dst) < os.path.getmtime(raw):
+        print(f"HDR source ({t}) → converting to SDR with avconvert (Apple tone mapping)…")
+        subprocess.run(["avconvert", "--preset", "Preset1920x1080", "--source", raw, "--output", dst, "--replace"], check=True)
+    return dst
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("raw")
@@ -114,7 +132,7 @@ def main():
     open(fc_path, "w").write(";\n".join(fc))
     out = os.path.join(P, "cut.mp4")
     cmd = [
-        "ffmpeg", "-loglevel", "error", "-y", "-i", args.raw,
+        "ffmpeg", "-loglevel", "error", "-y", "-i", sdr_input(args.raw, P),
         "-filter_complex_script", fc_path, "-map", "[vo]", "-map", "[ac]",
         "-c:v", "libx264", "-preset", "medium", "-crf", str(args.crf),
         "-c:a", "aac", "-b:a", "256k", "-ar", "48000", "-movflags", "+faststart", out,

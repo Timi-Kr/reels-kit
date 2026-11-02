@@ -32,7 +32,9 @@ const SceneFrame: React.FC<{scene: Scene; edit: EditT; slug: string}> = ({scene,
   const transform =
     scene.type === 'ui'
       ? `translateY(${(1 - inP) * box.h * 0.6 + (1 - outP) * box.h}px)`
-      : `scale(${1.04 - 0.04 * inP})`;
+      : scene.type === 'overlay'
+        ? 'none'
+        : `scale(${1.04 - 0.04 * inP})`;
   const opacity = 1; // ui slides in/out under the frame edge (overflow hidden) — no fades
   if (!scene.component) return null;
   return (

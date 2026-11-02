@@ -559,9 +559,10 @@ export const BarChart: React.FC<{style: Style; data: number[]; highlight?: numbe
 };
 
 /** Thick round-cap progress ring (WHOOP / Garmin / Apple Fitness), value counts up in the middle. */
-export const Ring: React.FC<{style: Style; value: number; size?: number; stroke?: number; color?: string; label?: string; suffix?: string; tone?: Tone; delay?: number; dur?: number}> = ({
+export const Ring: React.FC<{style: Style; value: number; max?: number; size?: number; stroke?: number; color?: string; label?: string; suffix?: string; tone?: Tone; delay?: number; dur?: number}> = ({
   style,
   value,
+  max = 100, // the ring fills value / max; the number shown is the value itself (e.g. 36 g of a 150 g target)
   size = 300,
   stroke = 26,
   color,
@@ -590,7 +591,7 @@ export const Ring: React.FC<{style: Style; value: number; size?: number; stroke?
           stroke={c}
           strokeWidth={stroke}
           strokeLinecap="round"
-          strokeDasharray={`${len * (value / 100) * p} ${len}`}
+          strokeDasharray={`${len * Math.min(1, value / max) * p} ${len}`}
           style={{filter: tone === 'dark' ? `drop-shadow(0 0 14px ${c})` : `drop-shadow(0 6px 10px ${c}66)`}}
         />
       </svg>

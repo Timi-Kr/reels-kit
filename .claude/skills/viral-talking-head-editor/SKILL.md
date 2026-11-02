@@ -49,7 +49,7 @@ The user should never need to know the steps or the prompts. As soon as this ski
 2. `.venv/bin/python -I $S/transcribe.py <raw> <P>/transcript_raw.json [--lang hr|en] [--prompt "names, jargon"]`
    It splits audio on silences and transcribes each speech chunk separately, so restarted takes show up as separate chunks (whisper otherwise swallows them). Read the printed chunk list and any `SUSPECT` long words.
 3. Find **bad takes**: a chunk that restarts the same sentence as the next chunk (false start), a sentence said twice (keep the LAST complete good take), stumbles, "ovaj/ono/uhm" chunks. Write `<P>/cuts.json` = `{"remove": [[start, end], ...], "notes": "..."}` in raw seconds (use chunk/word boundaries, extend ~0.1 s into the surrounding silence).
-4. `.venv/bin/python -I $S/cut.py <raw> <P> --pad 0.02 --max-gap 0.15` → `cut.mp4` (1080×1920, 30 fps), re-timed `transcript.json`. Every silence is removed, 20 ms padding kept around words.
+4. `.venv/bin/python -I $S/cut.py <raw> <P> --pad 0.02 --max-gap 0.15` → `cut.mp4` (1080×1920, 30 fps), re-timed `transcript.json`. Every silence is removed, 20 ms padding kept around words. iPhone HDR (HLG) footage is converted automatically with Apple's tone mapping (`avconvert` → `raw_sdr.mov`) — otherwise it comes out pale. Do the same (avconvert `Preset1920x1080`) for any HDR b-roll you cut yourself.
 5. Verify: `ffmpeg -i <P>/cut.mp4 -af silencedetect=noise=-35dB:d=0.2 -f null -` should list (almost) nothing. Report raw → cut length + the removed takes. Ask the user to watch `cut.mp4`.
 
 ### Step 2 — Plan (the user decides — their taste drives the edit)

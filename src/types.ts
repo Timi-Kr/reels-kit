@@ -31,7 +31,9 @@ export type CaptionGroup = {
   layout?: 'line' | 'stack'; // stack = script words on their own line, bigger
 };
 
-export type SceneType = 'captions' | 'ui' | 'halfscreen' | 'fullscreen';
+// overlay = full-frame layer drawn over the video WITHOUT darkening it (trackers, labels, cards in b-roll vlogs);
+// it may overlap other scenes.
+export type SceneType = 'captions' | 'ui' | 'halfscreen' | 'fullscreen' | 'overlay';
 
 export type Scene = {
   id: string;

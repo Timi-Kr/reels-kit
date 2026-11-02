@@ -18,7 +18,7 @@ const defaultY = (scene: Scene | undefined) => {
 };
 
 export const activeScene = (edit: Edit, frame: number) =>
-  edit.scenes.find((s) => frame >= s.from && frame < s.to && s.type !== 'captions') ??
+  edit.scenes.find((s) => frame >= s.from && frame < s.to && s.type !== 'captions' && s.type !== 'overlay') ??
   edit.scenes.find((s) => frame >= s.from && frame < s.to);
 
 const Word: React.FC<{w: CaptionWord; edit: Edit; groupFrom: number; scale: number; stackBig?: boolean}> = ({w, edit, groupFrom, scale, stackBig}) => {
