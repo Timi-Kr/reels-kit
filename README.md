@@ -3,7 +3,21 @@
 Claude odlučuje kako će edit izgledati, a **Remotion** ga renderira. Ti mu daješ raw video i ukus, a on reže, piše titlove, radi animacije i sound design.
 U repou su Remotion studio i dva skilla (`.claude/skills/`) koji rade čim otvoriš ovaj folder u Claude Codeu.
 
-## 1 · Setup (jednom, oko 10 min)
+## 0 · Instalacija u jednom promptu (najlakše)
+
+Prvo prihvati GitHub pozivnicu za ovaj repo iz maila. Zatim otvori Claude desktop app → **Code**, odaberi bilo koji folder i zalijepi:
+
+```text
+Postavi mi Reels kit za editiranje videa. Napravi redom, bez preskakanja:
+1. Provjeri jesam li prijavljen na GitHub (gh auth status). Ako gh ne postoji, instaliraj ga preko Homebrewa (a Homebrew s brew.sh ako ga nemam). Ako nisam prijavljen, pokreni gh auth login i vodi me kroz prijavu.
+2. Kloniraj Timi-Kr/reels-kit u moj Documents folder. Ako dobiješ "not found", reci mi da prvo prihvatim GitHub pozivnicu iz maila.
+3. Instaliraj što fali (node, ffmpeg, python) preko brewa, pa u reels-kit folderu pokreni ./setup.sh i pričekaj da završi.
+4. Na kraju mi reci da otvorim novu sesiju u folderu Documents/reels-kit i tamo napišem: "Napravi viral edit od ovog videa".
+```
+
+Traje ~10 min (skida se whisper model od ~1.6 GB), pa to napravi **prije workshopa**. Ako radije sam pokrećeš naredbe, slijedi korak 1.
+
+## 1 · Setup ručno (jednom, oko 10 min)
 
 Treba ti Mac s [Homebrewom](https://brew.sh). Ako nešto od ovoga nemaš, instaliraj:
 
