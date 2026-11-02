@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Edit Plan</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=Manrope:wght@400;600&family=DM+Sans:wght@400;600&family=Cormorant+Garamond:ital,wght@1,600;1,700&family=Playfair+Display:ital,wght@1,700&family=EB+Garamond:ital,wght@1,600&family=Instrument+Serif:ital@1&display=swap" rel="stylesheet">
+<style>
+@font-face{font-family:'Creato Display';src:url('../../fonts/CreatoDisplay-Medium.otf');font-weight:500}
+@font-face{font-family:'Creato Display';src:url('../../fonts/CreatoDisplay-Regular.otf');font-weight:400}
+:root{--bg:#F1EEE9;--card:#fff;--ink:#1d1d1f;--mute:#77736c;--line:#e3ded6;--acc:#F19A3E}
+@media (prefers-color-scheme:dark){:root{--bg:#121214;--card:#1c1c20;--ink:#f1f1f1;--mute:#9a9aa2;--line:#2c2c33}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:15px/1.45 Inter,system-ui,sans-serif}
+header{position:sticky;top:0;z-index:5;background:var(--bg);border-bottom:1px solid var(--line);padding:14px 24px;display:flex;gap:16px;align-items:center;justify-content:space-between}
+h1{font-size:18px;margin:0;font-weight:800;letter-spacing:-.01em}h2{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--mute);margin:0 0 12px}
+main{max-width:1180px;margin:0 auto;padding:24px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:20px;margin-bottom:20px}
+.style-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:16px;align-items:end}
+label{display:block;font-size:12px;color:var(--mute);margin-bottom:6px;font-weight:600}
+select,input[type=text],textarea{width:100%;padding:9px 10px;border-radius:10px;border:1px solid var(--line);background:transparent;color:var(--ink);font:inherit}
+input[type=color]{width:100%;height:40px;border:1px solid var(--line);border-radius:10px;background:transparent;padding:3px}
+.swatches{display:flex;gap:6px;margin-top:8px;flex-wrap:wrap}.swatches button{width:22px;height:22px;border-radius:50%;border:1px solid rgba(0,0,0,.15);cursor:pointer}
+.preview{margin-top:18px;border-radius:14px;background:linear-gradient(180deg,#3a3a3a,#141414);padding:34px 20px;text-align:center}
+.preview .s{color:var(--sans-color);font-weight:500;font-size:22px;text-shadow:0 2px 8px rgba(0,0,0,.35)}
+.preview .x{font-style:italic;font-weight:700;font-size:46px;line-height:.9;display:block;text-shadow:0 0 22px var(--glow)}
+.row{display:grid;grid-template-columns:70px minmax(0,1fr) 170px 150px minmax(0,1.3fr);gap:12px;padding:14px 0;border-top:1px solid var(--line);align-items:start}
+.row:first-of-type{border-top:0}.t{font-variant-numeric:tabular-nums;color:var(--mute);font-size:12px;padding-top:9px}
+.txt{padding-top:8px;font-weight:500}textarea{min-height:64px;resize:vertical}
+.legend{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;font-size:13px;color:var(--mute);margin-top:4px}
+.legend b{color:var(--ink)}
+.btn{background:var(--ink);color:var(--bg);border:0;border-radius:10px;padding:10px 16px;font-weight:700;cursor:pointer}
+.btn.ghost{background:transparent;color:var(--ink);border:1px solid var(--line)}
+.tag{display:inline-block;font-size:11px;font-weight:700;padding:2px 8px;border-radius:99px;margin-top:6px}
+.tag.captions{background:#e8e5df;color:#555}.tag.ui{background:#dfe8ff;color:#2a4fb8}.tag.halfscreen{background:#efe1ff;color:#6a2fb0}.tag.fullscreen{background:#ffe5d6;color:#b04b12}
+@media (max-width:860px){.row{grid-template-columns:1fr}.t{padding:0}header{flex-wrap:wrap}}
+#toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--bg);padding:10px 16px;border-radius:10px;opacity:0;transition:.2s}
+</style></head><body>
+<header><h1>Demo — 3 greške <span style="color:var(--mute);font-weight:500">· edit plan</span></h1>
+<div style="display:flex;gap:8px"><button class="btn ghost" id="copy">Copy JSON</button><button class="btn" id="export">Export plan.json</button></div></header>
+<main>
+<section class="card"><h2>1 · Look of the edit</h2>
+<div class="style-grid">
+ <div><label>Accent color</label><input type="color" id="accent"><div class="swatches" id="sw"></div></div>
+ <div><label>Sans font (main words)</label><select id="sansFont"><option value="Creato Display">Creato Display</option><option value="Inter">Inter</option><option value="Manrope">Manrope</option><option value="DM Sans">DM Sans</option></select></div>
+ <div><label>Script font (special words)</label><select id="scriptFont"><option value="Adobe Garamond">Adobe Garamond</option><option value="Cormorant Garamond">Cormorant Garamond</option><option value="Playfair Display">Playfair Display</option><option value="EB Garamond">EB Garamond</option><option value="Instrument Serif">Instrument Serif</option></select></div>
+ <div><label>Sans color</label><input type="color" id="sansColor"></div>
+ <div><label>Script color</label><input type="color" id="scriptColor"></div>
+ <div><label>Scene background</label><select id="bg"><option value="warm">Warm white</option><option value="cold">Cold white</option><option value="dark">Dark glass</option></select></div>
+</div>
+<div class="preview" id="pv"><span class="s">What's the</span><span class="x" id="pvx">30,000ft</span><span class="s">view on this</span></div>
+</section>
+<section class="card"><h2>2 · Scene types</h2><div class="legend">
+<div><b>Captions</b> — just me talking with text on screen.</div>
+<div><b>Captions + UI</b> — text + a small animation in the lower half (I get darkened + blurred).</div>
+<div><b>Half screen</b> — animation on the top half, me on the bottom half.</div>
+<div><b>Full screen</b> — the animation takes over the whole screen.</div></div></section>
+<section class="card"><h2>3 · Script & plan</h2><div id="rows"></div></section>
+</main><div id="toast"></div>
+<script>
+const LINES=[{"id": "L01", "text": "Ove tri greške čine da tvoji vide izgledaju amaterski.", "start": 0.02, "end": 3.71}, {"id": "L02", "text": "Evo što trebaš napraviti da tvoje animacije izgledaju profesionalno.", "start": 3.75, "end": 8.48}, {"id": "L03", "text": "Broj 1.", "start": 8.52, "end": 9.19}, {"id": "L04", "text": "Prestani sve raditi preveliko.", "start": 9.23, "end": 11.13}, {"id": "L05", "text": "Smanji svaki element za 25%.", "start": 11.17, "end": 14.02}, {"id": "L06", "text": "i gledaj koliko bolje izgleda.", "start": 14.06, "end": 15.961}];const PREV={"style": {"accent": "#5C7A99", "sansFont": "Creato Display", "scriptFont": "Adobe Garamond", "sansColor": "#F3F3F3", "scriptColor": "#8FB3D9", "bg": "warm"}, "lines": [{"id": "L01", "text": "Ove tri greške čine da tvoji vide izgledaju amaterski.", "start": 0.02, "end": 3.71, "type": "ui", "highlight": ["tri", "greške"], "notes": "UI with three numbered circles, one per mistake"}, {"id": "L02", "text": "Evo što trebaš napraviti da tvoje animacije izgledaju profesionalno.", "start": 3.75, "end": 8.48, "type": "fullscreen", "highlight": ["profesionalno"], "notes": "Cursor drags a slider from Amater to Profesionalac"}, {"id": "L03", "text": "Broj 1.", "start": 8.52, "end": 9.19, "type": "ui", "highlight": ["1"], "notes": "Chapter UI: circle 1 fills in, chapter title under it"}, {"id": "L04", "text": "Prestani sve raditi preveliko.", "start": 9.23, "end": 11.13, "type": "captions", "highlight": ["preveliko"], "notes": "punch-in zoom on face"}, {"id": "L05", "text": "Smanji svaki element za 25%.", "start": 11.17, "end": 14.02, "type": "halfscreen", "highlight": ["25%"], "notes": "Play icon starts way too big, snaps 25% smaller"}, {"id": "L06", "text": "i gledaj koliko bolje izgleda.", "start": 14.06, "end": 15.961, "type": "captions", "highlight": ["bolje"], "notes": ""}]};const KEY='plan:'+"demo";
+const TYPES=[["captions", "Captions"], ["ui", "Captions + UI"], ["halfscreen", "Half screen"], ["fullscreen", "Full screen"]];
+const presets=['#F19A3E','#E2B04A','#5FB7A0','#3E6FD8','#8E6BE8','#C8483B','#6D8B74','#5C7A99'];
+const $=id=>document.getElementById(id);
+let saved=null;try{saved=JSON.parse(localStorage.getItem(KEY)||'null')}catch(e){}
+const base=saved||PREV||{};const st=Object.assign({accent:'#F19A3E',sansFont:'Creato Display',scriptFont:'Adobe Garamond',sansColor:'#F3F3F3',scriptColor:'#F19A3E',bg:'warm'},base.style||{});
+for(const k of Object.keys(st)){if($(k))$(k).value=st[k]}
+$('sw').innerHTML=presets.map(c=>`<button style="background:${c}" data-c="${c}" title="${c}"></button>`).join('');
+$('sw').onclick=e=>{const c=e.target.dataset.c;if(!c)return;$('accent').value=c;$('scriptColor').value=c;upd()};
+const byId={};(base.lines||[]).forEach(l=>byId[l.id]=l);
+const fmt=s=>{const m=Math.floor(s/60);return m+':'+(s%60).toFixed(1).padStart(4,'0')};
+$('rows').innerHTML=LINES.map(l=>{const p=byId[l.id]||{};const ty=p.type||'captions';
+return `<div class="row" data-id="${l.id}"><div class="t">${l.id}<br>${fmt(l.start)}</div><div class="txt">${l.text.replace(/</g,'&lt;')}<br><span class="tag ${ty}">${TYPES.find(t=>t[0]==ty)[1]}</span></div>
+<div><label>Scene type</label><select class="ty">${TYPES.map(t=>`<option value="${t[0]}"${t[0]==ty?' selected':''}>${t[1]}</option>`).join('')}</select></div>
+<div><label>Highlight word(s)</label><input type="text" class="hl" placeholder="e.g. three mistakes" value="${(p.highlight||[]).join(', ').replace(/"/g,'&quot;')}"></div>
+<div><label>What happens on screen</label><textarea class="nt" placeholder="Describe the animation / UI / zoom…">${(p.notes||'').replace(/</g,'&lt;')}</textarea></div></div>`}).join('');
+function collect(){const style={};for(const k of Object.keys(st))style[k]=$(k).value;
+const lines=LINES.map(l=>{const r=document.querySelector(`.row[data-id="${l.id}"]`);return Object.assign({},l,{type:r.querySelector('.ty').value,highlight:r.querySelector('.hl').value.split(',').map(s=>s.trim()).filter(Boolean),notes:r.querySelector('.nt').value.trim()})});
+return {style,lines}}
+function upd(){const s=collect().style;document.documentElement.style.setProperty('--sans-color',s.sansColor);const x=$('pvx');x.style.color=s.scriptColor;x.style.fontFamily=`'${s.scriptFont=='Adobe Garamond'?'Cormorant Garamond':s.scriptFont}',serif`;document.documentElement.style.setProperty('--glow',s.scriptColor+'66');document.querySelectorAll('.preview .s').forEach(e=>e.style.fontFamily=`'${s.sansFont}',sans-serif`);
+document.querySelectorAll('.row').forEach(r=>{const t=r.querySelector('.ty').value,tag=r.querySelector('.tag');tag.className='tag '+t;tag.textContent=TYPES.find(x=>x[0]==t)[1]});
+try{localStorage.setItem(KEY,JSON.stringify(collect()))}catch(e){}}
+document.addEventListener('input',upd);document.addEventListener('change',upd);upd();
+const toast=m=>{const t=$('toast');t.textContent=m;t.style.opacity=1;setTimeout(()=>t.style.opacity=0,1800)};
+$('export').onclick=()=>{const b=new Blob([JSON.stringify(collect(),null,1)],{type:'application/json'});const a=document.createElement('a');a.href=URL.createObjectURL(b);a.download='plan.json';a.click();toast('plan.json downloaded — move it into the project folder (or tell Claude it is in Downloads)')};
+$('copy').onclick=async()=>{try{await navigator.clipboard.writeText(JSON.stringify(collect(),null,1));toast('Copied — paste it to Claude')}catch(e){toast('Copy failed, use Export')}};
+</script></body></html>

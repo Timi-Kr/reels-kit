@@ -1,0 +1,12 @@
+node_modules
+.venv
+out
+.DS_Store
+__pycache__
+
+# client footage stays local — only the demo project is shared
+public/projects/*
+!public/projects/demo
+src/projects/*
+!src/projects/demo
+!src/projects/registry.ts

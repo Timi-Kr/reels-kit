@@ -1,0 +1,435 @@
+{
+ "fps": 30,
+ "width": 1080,
+ "height": 1920,
+ "durationInFrames": 485,
+ "video": "projects/demo/cut.mp4",
+ "style": {
+  "accent": "#5C7A99",
+  "sansFont": "Creato Display",
+  "scriptFont": "Cormorant Garamond",
+  "sansColor": "#F3F3F3",
+  "scriptColor": "#8FB3D9",
+  "dark": "#2B2B2B",
+  "light": "#ECE8E1",
+  "bg": "warm"
+ },
+ "captions": [
+  {
+   "from": 0,
+   "to": 28,
+   "words": [
+    {
+     "text": "Ove",
+     "at": 0
+    },
+    {
+     "text": "tri",
+     "at": 8,
+     "script": true
+    },
+    {
+     "text": "greške",
+     "at": 13,
+     "script": true
+    }
+   ],
+   "layout": "stack"
+  },
+  {
+   "from": 28,
+   "to": 54,
+   "words": [
+    {
+     "text": "čine",
+     "at": 29
+    },
+    {
+     "text": "da",
+     "at": 39
+    },
+    {
+     "text": "tvoji",
+     "at": 44
+    }
+   ]
+  },
+  {
+   "from": 54,
+   "to": 85,
+   "words": [
+    {
+     "text": "vide",
+     "at": 55
+    },
+    {
+     "text": "izgledaju",
+     "at": 62
+    }
+   ]
+  },
+  {
+   "from": 85,
+   "to": 110,
+   "words": [
+    {
+     "text": "amaterski",
+     "at": 86
+    }
+   ]
+  },
+  {
+   "from": 110,
+   "to": 141,
+   "words": [
+    {
+     "text": "Evo",
+     "at": 111
+    },
+    {
+     "text": "što",
+     "at": 118
+    },
+    {
+     "text": "trebaš",
+     "at": 127
+    }
+   ]
+  },
+  {
+   "from": 141,
+   "to": 177,
+   "words": [
+    {
+     "text": "napraviti",
+     "at": 142
+    },
+    {
+     "text": "da",
+     "at": 162
+    },
+    {
+     "text": "tvoje",
+     "at": 168
+    }
+   ]
+  },
+  {
+   "from": 177,
+   "to": 221,
+   "words": [
+    {
+     "text": "animacije",
+     "at": 178
+    },
+    {
+     "text": "izgledaju",
+     "at": 201
+    }
+   ]
+  },
+  {
+   "from": 221,
+   "to": 254,
+   "words": [
+    {
+     "text": "profesionalno",
+     "at": 222,
+     "script": true
+    }
+   ],
+   "layout": "stack"
+  },
+  {
+   "from": 254,
+   "to": 275,
+   "words": [
+    {
+     "text": "Broj",
+     "at": 255
+    },
+    {
+     "text": "1",
+     "at": 266,
+     "script": true
+    }
+   ],
+   "layout": "stack"
+  },
+  {
+   "from": 275,
+   "to": 312,
+   "words": [
+    {
+     "text": "Prestani",
+     "at": 276
+    },
+    {
+     "text": "sve",
+     "at": 291
+    },
+    {
+     "text": "raditi",
+     "at": 301
+    }
+   ]
+  },
+  {
+   "from": 312,
+   "to": 333,
+   "words": [
+    {
+     "text": "preveliko",
+     "at": 313,
+     "script": true
+    }
+   ],
+   "layout": "stack"
+  },
+  {
+   "from": 333,
+   "to": 374,
+   "words": [
+    {
+     "text": "Smanji",
+     "at": 334
+    },
+    {
+     "text": "svaki",
+     "at": 348
+    },
+    {
+     "text": "element",
+     "at": 361
+    }
+   ]
+  },
+  {
+   "from": 374,
+   "to": 420,
+   "words": [
+    {
+     "text": "za",
+     "at": 375
+    },
+    {
+     "text": "25%",
+     "at": 385,
+     "script": true
+    }
+   ],
+   "layout": "stack"
+  },
+  {
+   "from": 420,
+   "to": 448,
+   "words": [
+    {
+     "text": "i",
+     "at": 421
+    },
+    {
+     "text": "gledaj",
+     "at": 423
+    },
+    {
+     "text": "koliko",
+     "at": 434
+    }
+   ]
+  },
+  {
+   "from": 448,
+   "to": 485,
+   "words": [
+    {
+     "text": "bolje",
+     "at": 449,
+     "script": true
+    },
+    {
+     "text": "izgleda",
+     "at": 459
+    }
+   ],
+   "layout": "stack"
+  }
+ ],
+ "scenes": [
+  {
+   "id": "L01",
+   "type": "ui",
+   "from": 0,
+   "to": 109,
+   "component": "L01",
+   "props": {},
+   "note": "UI with three numbered circles, one per mistake"
+  },
+  {
+   "id": "L02",
+   "type": "fullscreen",
+   "from": 109,
+   "to": 253,
+   "component": "L02",
+   "props": {},
+   "note": "Cursor drags a slider from Amater to Profesionalac"
+  },
+  {
+   "id": "L03",
+   "type": "ui",
+   "from": 253,
+   "to": 282,
+   "component": "L03",
+   "props": {},
+   "note": "Chapter UI: circle 1 fills in, chapter title under it"
+  },
+  {
+   "id": "L05",
+   "type": "halfscreen",
+   "from": 332,
+   "to": 427,
+   "component": "L05",
+   "props": {},
+   "note": "Play icon starts way too big, snaps 25% smaller"
+  }
+ ],
+ "camera": [
+  {
+   "from": 282,
+   "to": 332,
+   "zoom": 1.18,
+   "focusY": 0.32,
+   "hold": true
+  }
+ ],
+ "sfx": [
+  {
+   "track": "WHOOSHES",
+   "file": "sfx/whooshes/deep_voice_02.wav",
+   "frame": 100,
+   "eventFrame": 112,
+   "volumeDb": -12,
+   "note": "L02 full screen scales in"
+  },
+  {
+   "track": "WHOOSHES",
+   "file": "sfx/whooshes/short_01.wav",
+   "frame": 162,
+   "eventFrame": 165,
+   "volumeDb": -12,
+   "note": "cursor drags slider (fastest point)"
+  },
+  {
+   "track": "WHOOSHES",
+   "file": "sfx/whooshes/hollow_01.wav",
+   "frame": 243,
+   "eventFrame": 253,
+   "volumeDb": -12,
+   "note": "back to talking head, chapter UI slides up"
+  },
+  {
+   "track": "WHOOSHES",
+   "file": "sfx/whooshes/futuristic_02.wav",
+   "frame": 325,
+   "eventFrame": 336,
+   "volumeDb": -11,
+   "note": "L05 half screen slides down"
+  },
+  {
+   "track": "TEXTURES",
+   "file": "sfx/textures/ui_click_01.wav",
+   "frame": 12,
+   "eventFrame": 12,
+   "volumeDb": -7,
+   "note": "chapter UI pops (hook)"
+  },
+  {
+   "track": "TEXTURES",
+   "file": "sfx/textures/complex_mechanism_gizmo_01.wav",
+   "frame": 14,
+   "eventFrame": 14,
+   "volumeDb": -8,
+   "note": "three circles pop in sequence"
+  },
+  {
+   "track": "TEXTURES",
+   "file": "sfx/textures/scifi_impact_02.wav",
+   "frame": 110,
+   "eventFrame": 110,
+   "volumeDb": -7,
+   "note": "new animation revealed"
+  },
+  {
+   "track": "TEXTURES",
+   "file": "sfx/textures/ui_click_02.wav",
+   "frame": 124,
+   "eventFrame": 124,
+   "volumeDb": -7,
+   "note": "slider pops"
+  },
+  {
+   "track": "TEXTURES",
+   "file": "sfx/textures/scifi_click_01.wav",
+   "frame": 261,
+   "eventFrame": 261,
+   "volumeDb": -6,
+   "note": "circle 1 fills"
+  },
+  {
+   "track": "TEXTURES",
+   "file": "sfx/textures/digital_camera_click_01.wav",
+   "frame": 281,
+   "eventFrame": 282,
+   "volumeDb": -7,
+   "note": "punch-in zoom cut"
+  },
+  {
+   "track": "TEXTURES",
+   "file": "sfx/textures/scifi_click_03.wav",
+   "frame": 366,
+   "eventFrame": 366,
+   "volumeDb": -6,
+   "note": "icon snaps 25% smaller"
+  },
+  {
+   "track": "TEXTURES",
+   "file": "sfx/textures/success_reward_01.wav",
+   "frame": 446,
+   "eventFrame": 449,
+   "volumeDb": -7,
+   "note": "conclusion: 'bolje'"
+  },
+  {
+   "track": "RISERS",
+   "file": "sfx/risers/sharp_bass_riser_01.wav",
+   "frame": 36,
+   "eventFrame": 109,
+   "volumeDb": -5,
+   "note": "hook -> body"
+  },
+  {
+   "track": "RISERS",
+   "file": "sfx/risers/metallic_riser_01.wav",
+   "frame": 259,
+   "eventFrame": 332,
+   "volumeDb": -5,
+   "note": "build into the 25% example"
+  },
+  {
+   "track": "HITS",
+   "file": "sfx/hits/impact_hit_01.wav",
+   "frame": 109,
+   "eventFrame": 109,
+   "volumeDb": -6,
+   "note": "under riser, lands L02"
+  },
+  {
+   "track": "HITS",
+   "file": "sfx/hits/bass_hit_02.wav",
+   "frame": 332,
+   "eventFrame": 332,
+   "volumeDb": -7,
+   "note": "under metallic riser"
+  }
+ ]
+}

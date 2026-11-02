@@ -1,0 +1,1067 @@
+{
+ "whooshes/classy_airy_01.wav": {
+  "family": "whooshes",
+  "name": "classy_airy",
+  "variation": 1,
+  "duration": 1.51,
+  "peak": 0.719
+ },
+ "whooshes/classy_airy_02.wav": {
+  "family": "whooshes",
+  "name": "classy_airy",
+  "variation": 2,
+  "duration": 1.65,
+  "peak": 0.857
+ },
+ "whooshes/classy_airy_03.wav": {
+  "family": "whooshes",
+  "name": "classy_airy",
+  "variation": 3,
+  "duration": 1.86,
+  "peak": 0.894
+ },
+ "whooshes/hollow_01.wav": {
+  "family": "whooshes",
+  "name": "hollow",
+  "variation": 1,
+  "duration": 0.925,
+  "peak": 0.348
+ },
+ "whooshes/hollow_02.wav": {
+  "family": "whooshes",
+  "name": "hollow",
+  "variation": 2,
+  "duration": 1.0,
+  "peak": 0.377
+ },
+ "whooshes/hollow_03.wav": {
+  "family": "whooshes",
+  "name": "hollow",
+  "variation": 3,
+  "duration": 1.113,
+  "peak": 0.46
+ },
+ "whooshes/futuristic_01.wav": {
+  "family": "whooshes",
+  "name": "futuristic",
+  "variation": 1,
+  "duration": 0.88,
+  "peak": 0.312
+ },
+ "whooshes/futuristic_02.wav": {
+  "family": "whooshes",
+  "name": "futuristic",
+  "variation": 2,
+  "duration": 0.95,
+  "peak": 0.368
+ },
+ "whooshes/futuristic_03.wav": {
+  "family": "whooshes",
+  "name": "futuristic",
+  "variation": 3,
+  "duration": 1.055,
+  "peak": 0.422
+ },
+ "whooshes/deep_voice_01.wav": {
+  "family": "whooshes",
+  "name": "deep_voice",
+  "variation": 1,
+  "duration": 0.97,
+  "peak": 0.372
+ },
+ "whooshes/deep_voice_02.wav": {
+  "family": "whooshes",
+  "name": "deep_voice",
+  "variation": 2,
+  "duration": 1.05,
+  "peak": 0.395
+ },
+ "whooshes/deep_voice_03.wav": {
+  "family": "whooshes",
+  "name": "deep_voice",
+  "variation": 3,
+  "duration": 1.17,
+  "peak": 0.462
+ },
+ "whooshes/generic_long_01.wav": {
+  "family": "whooshes",
+  "name": "generic_long",
+  "variation": 1,
+  "duration": 2.23,
+  "peak": 1.604
+ },
+ "whooshes/generic_long_02.wav": {
+  "family": "whooshes",
+  "name": "generic_long",
+  "variation": 2,
+  "duration": 2.45,
+  "peak": 1.793
+ },
+ "whooshes/generic_long_03.wav": {
+  "family": "whooshes",
+  "name": "generic_long",
+  "variation": 3,
+  "duration": 2.78,
+  "peak": 2.1
+ },
+ "whooshes/organic_wind_01.wav": {
+  "family": "whooshes",
+  "name": "organic_wind",
+  "variation": 1,
+  "duration": 1.69,
+  "peak": 0.687
+ },
+ "whooshes/organic_wind_02.wav": {
+  "family": "whooshes",
+  "name": "organic_wind",
+  "variation": 2,
+  "duration": 1.85,
+  "peak": 0.804
+ },
+ "whooshes/organic_wind_03.wav": {
+  "family": "whooshes",
+  "name": "organic_wind",
+  "variation": 3,
+  "duration": 2.09,
+  "peak": 0.934
+ },
+ "whooshes/short_01.wav": {
+  "family": "whooshes",
+  "name": "short",
+  "variation": 1,
+  "duration": 0.502,
+  "peak": 0.115
+ },
+ "whooshes/short_02.wav": {
+  "family": "whooshes",
+  "name": "short",
+  "variation": 2,
+  "duration": 0.53,
+  "peak": 0.128
+ },
+ "whooshes/short_03.wav": {
+  "family": "whooshes",
+  "name": "short",
+  "variation": 3,
+  "duration": 0.572,
+  "peak": 0.141
+ },
+ "whooshes/synthetic_01.wav": {
+  "family": "whooshes",
+  "name": "synthetic",
+  "variation": 1,
+  "duration": 1.06,
+  "peak": 0.44
+ },
+ "whooshes/synthetic_02.wav": {
+  "family": "whooshes",
+  "name": "synthetic",
+  "variation": 2,
+  "duration": 1.15,
+  "peak": 0.495
+ },
+ "whooshes/synthetic_03.wav": {
+  "family": "whooshes",
+  "name": "synthetic",
+  "variation": 3,
+  "duration": 1.285,
+  "peak": 0.586
+ },
+ "whooshes/transition_spacey_01.wav": {
+  "family": "whooshes",
+  "name": "transition_spacey",
+  "variation": 1,
+  "duration": 1.33,
+  "peak": 0.644
+ },
+ "whooshes/transition_spacey_02.wav": {
+  "family": "whooshes",
+  "name": "transition_spacey",
+  "variation": 2,
+  "duration": 1.45,
+  "peak": 0.725
+ },
+ "whooshes/transition_spacey_03.wav": {
+  "family": "whooshes",
+  "name": "transition_spacey",
+  "variation": 3,
+  "duration": 1.63,
+  "peak": 0.833
+ },
+ "whooshes/water_dropper_01.wav": {
+  "family": "whooshes",
+  "name": "water_dropper",
+  "variation": 1,
+  "duration": 1.91,
+  "peak": 0.335
+ },
+ "whooshes/water_dropper_02.wav": {
+  "family": "whooshes",
+  "name": "water_dropper",
+  "variation": 2,
+  "duration": 1.91,
+  "peak": 0.338
+ },
+ "whooshes/water_dropper_03.wav": {
+  "family": "whooshes",
+  "name": "water_dropper",
+  "variation": 3,
+  "duration": 1.91,
+  "peak": 0.336
+ },
+ "textures/pop_01.wav": {
+  "family": "textures",
+  "name": "pop",
+  "variation": 1,
+  "duration": 0.12,
+  "peak": 0.007
+ },
+ "textures/pop_02.wav": {
+  "family": "textures",
+  "name": "pop",
+  "variation": 2,
+  "duration": 0.12,
+  "peak": 0.007
+ },
+ "textures/pop_03.wav": {
+  "family": "textures",
+  "name": "pop",
+  "variation": 3,
+  "duration": 0.12,
+  "peak": 0.006
+ },
+ "textures/ui_click_01.wav": {
+  "family": "textures",
+  "name": "ui_click",
+  "variation": 1,
+  "duration": 0.31,
+  "peak": 0.006
+ },
+ "textures/ui_click_02.wav": {
+  "family": "textures",
+  "name": "ui_click",
+  "variation": 2,
+  "duration": 0.31,
+  "peak": 0.006
+ },
+ "textures/ui_click_03.wav": {
+  "family": "textures",
+  "name": "ui_click",
+  "variation": 3,
+  "duration": 0.31,
+  "peak": 0.006
+ },
+ "textures/scifi_click_01.wav": {
+  "family": "textures",
+  "name": "scifi_click",
+  "variation": 1,
+  "duration": 0.35,
+  "peak": 0.007
+ },
+ "textures/scifi_click_02.wav": {
+  "family": "textures",
+  "name": "scifi_click",
+  "variation": 2,
+  "duration": 0.35,
+  "peak": 0.007
+ },
+ "textures/scifi_click_03.wav": {
+  "family": "textures",
+  "name": "scifi_click",
+  "variation": 3,
+  "duration": 0.35,
+  "peak": 0.007
+ },
+ "textures/mechanical_click_01.wav": {
+  "family": "textures",
+  "name": "mechanical_click",
+  "variation": 1,
+  "duration": 0.08,
+  "peak": 0.006
+ },
+ "textures/mechanical_click_02.wav": {
+  "family": "textures",
+  "name": "mechanical_click",
+  "variation": 2,
+  "duration": 0.08,
+  "peak": 0.006
+ },
+ "textures/mechanical_click_03.wav": {
+  "family": "textures",
+  "name": "mechanical_click",
+  "variation": 3,
+  "duration": 0.08,
+  "peak": 0.005
+ },
+ "textures/analog_button_01.wav": {
+  "family": "textures",
+  "name": "analog_button",
+  "variation": 1,
+  "duration": 0.14,
+  "peak": 0.006
+ },
+ "textures/analog_button_02.wav": {
+  "family": "textures",
+  "name": "analog_button",
+  "variation": 2,
+  "duration": 0.14,
+  "peak": 0.006
+ },
+ "textures/analog_button_03.wav": {
+  "family": "textures",
+  "name": "analog_button",
+  "variation": 3,
+  "duration": 0.14,
+  "peak": 0.005
+ },
+ "textures/tiny_gearwheel_01.wav": {
+  "family": "textures",
+  "name": "tiny_gearwheel",
+  "variation": 1,
+  "duration": 0.91,
+  "peak": 0.481
+ },
+ "textures/tiny_gearwheel_02.wav": {
+  "family": "textures",
+  "name": "tiny_gearwheel",
+  "variation": 2,
+  "duration": 0.91,
+  "peak": 0.347
+ },
+ "textures/tiny_gearwheel_03.wav": {
+  "family": "textures",
+  "name": "tiny_gearwheel",
+  "variation": 3,
+  "duration": 0.91,
+  "peak": 0.472
+ },
+ "textures/complex_mechanism_gizmo_01.wav": {
+  "family": "textures",
+  "name": "complex_mechanism_gizmo",
+  "variation": 1,
+  "duration": 1.51,
+  "peak": 0.006
+ },
+ "textures/complex_mechanism_gizmo_02.wav": {
+  "family": "textures",
+  "name": "complex_mechanism_gizmo",
+  "variation": 2,
+  "duration": 1.51,
+  "peak": 0.006
+ },
+ "textures/complex_mechanism_gizmo_03.wav": {
+  "family": "textures",
+  "name": "complex_mechanism_gizmo",
+  "variation": 3,
+  "duration": 1.51,
+  "peak": 0.006
+ },
+ "textures/keyboard_writing_01.wav": {
+  "family": "textures",
+  "name": "keyboard_writing",
+  "variation": 1,
+  "duration": 1.61,
+  "peak": 0.227
+ },
+ "textures/keyboard_writing_02.wav": {
+  "family": "textures",
+  "name": "keyboard_writing",
+  "variation": 2,
+  "duration": 1.61,
+  "peak": 0.205
+ },
+ "textures/keyboard_writing_03.wav": {
+  "family": "textures",
+  "name": "keyboard_writing",
+  "variation": 3,
+  "duration": 1.61,
+  "peak": 0.756
+ },
+ "textures/video_scan_01.wav": {
+  "family": "textures",
+  "name": "video_scan",
+  "variation": 1,
+  "duration": 0.55,
+  "peak": 0.375
+ },
+ "textures/video_scan_02.wav": {
+  "family": "textures",
+  "name": "video_scan",
+  "variation": 2,
+  "duration": 0.55,
+  "peak": 0.369
+ },
+ "textures/video_scan_03.wav": {
+  "family": "textures",
+  "name": "video_scan",
+  "variation": 3,
+  "duration": 0.55,
+  "peak": 0.387
+ },
+ "textures/scifi_impact_01.wav": {
+  "family": "textures",
+  "name": "scifi_impact",
+  "variation": 1,
+  "duration": 2.61,
+  "peak": 0.021
+ },
+ "textures/scifi_impact_02.wav": {
+  "family": "textures",
+  "name": "scifi_impact",
+  "variation": 2,
+  "duration": 2.61,
+  "peak": 0.015
+ },
+ "textures/scifi_impact_03.wav": {
+  "family": "textures",
+  "name": "scifi_impact",
+  "variation": 3,
+  "duration": 2.61,
+  "peak": 0.012
+ },
+ "textures/scifi_hit_01.wav": {
+  "family": "textures",
+  "name": "scifi_hit",
+  "variation": 1,
+  "duration": 1.51,
+  "peak": 0.007
+ },
+ "textures/scifi_hit_02.wav": {
+  "family": "textures",
+  "name": "scifi_hit",
+  "variation": 2,
+  "duration": 1.51,
+  "peak": 0.008
+ },
+ "textures/scifi_hit_03.wav": {
+  "family": "textures",
+  "name": "scifi_hit",
+  "variation": 3,
+  "duration": 1.51,
+  "peak": 0.007
+ },
+ "textures/activate_protection_energy_01.wav": {
+  "family": "textures",
+  "name": "activate_protection_energy",
+  "variation": 1,
+  "duration": 2.31,
+  "peak": 0.932
+ },
+ "textures/activate_protection_energy_02.wav": {
+  "family": "textures",
+  "name": "activate_protection_energy",
+  "variation": 2,
+  "duration": 2.31,
+  "peak": 0.86
+ },
+ "textures/activate_protection_energy_03.wav": {
+  "family": "textures",
+  "name": "activate_protection_energy",
+  "variation": 3,
+  "duration": 2.31,
+  "peak": 0.933
+ },
+ "textures/digital_camera_click_01.wav": {
+  "family": "textures",
+  "name": "digital_camera_click",
+  "variation": 1,
+  "duration": 0.46,
+  "peak": 0.02
+ },
+ "textures/digital_camera_click_02.wav": {
+  "family": "textures",
+  "name": "digital_camera_click",
+  "variation": 2,
+  "duration": 0.46,
+  "peak": 0.02
+ },
+ "textures/digital_camera_click_03.wav": {
+  "family": "textures",
+  "name": "digital_camera_click",
+  "variation": 3,
+  "duration": 0.46,
+  "peak": 0.02
+ },
+ "textures/cartoon_heavenly_choir_01.wav": {
+  "family": "textures",
+  "name": "cartoon_heavenly_choir",
+  "variation": 1,
+  "duration": 4.61,
+  "peak": 1.147
+ },
+ "textures/cartoon_heavenly_choir_02.wav": {
+  "family": "textures",
+  "name": "cartoon_heavenly_choir",
+  "variation": 2,
+  "duration": 4.61,
+  "peak": 1.192
+ },
+ "textures/cartoon_heavenly_choir_03.wav": {
+  "family": "textures",
+  "name": "cartoon_heavenly_choir",
+  "variation": 3,
+  "duration": 4.61,
+  "peak": 1.183
+ },
+ "textures/success_reward_01.wav": {
+  "family": "textures",
+  "name": "success_reward",
+  "variation": 1,
+  "duration": 2.01,
+  "peak": 0.09
+ },
+ "textures/success_reward_02.wav": {
+  "family": "textures",
+  "name": "success_reward",
+  "variation": 2,
+  "duration": 2.01,
+  "peak": 0.09
+ },
+ "textures/success_reward_03.wav": {
+  "family": "textures",
+  "name": "success_reward",
+  "variation": 3,
+  "duration": 2.01,
+  "peak": 0.166
+ },
+ "textures/alarm_buzzer_01.wav": {
+  "family": "textures",
+  "name": "alarm_buzzer",
+  "variation": 1,
+  "duration": 1.2,
+  "peak": 0.601
+ },
+ "textures/alarm_buzzer_02.wav": {
+  "family": "textures",
+  "name": "alarm_buzzer",
+  "variation": 2,
+  "duration": 1.2,
+  "peak": 0.6
+ },
+ "textures/alarm_buzzer_03.wav": {
+  "family": "textures",
+  "name": "alarm_buzzer",
+  "variation": 3,
+  "duration": 1.2,
+  "peak": 0.6
+ },
+ "textures/ui_success_01.wav": {
+  "family": "textures",
+  "name": "ui_success",
+  "variation": 1,
+  "duration": 0.81,
+  "peak": 0.095
+ },
+ "textures/ui_success_02.wav": {
+  "family": "textures",
+  "name": "ui_success",
+  "variation": 2,
+  "duration": 0.81,
+  "peak": 0.095
+ },
+ "textures/ui_success_03.wav": {
+  "family": "textures",
+  "name": "ui_success",
+  "variation": 3,
+  "duration": 0.81,
+  "peak": 0.095
+ },
+ "textures/ui_fail_01.wav": {
+  "family": "textures",
+  "name": "ui_fail",
+  "variation": 1,
+  "duration": 0.45,
+  "peak": 0.135
+ },
+ "textures/ui_fail_02.wav": {
+  "family": "textures",
+  "name": "ui_fail",
+  "variation": 2,
+  "duration": 0.45,
+  "peak": 0.137
+ },
+ "textures/ui_fail_03.wav": {
+  "family": "textures",
+  "name": "ui_fail",
+  "variation": 3,
+  "duration": 0.45,
+  "peak": 0.135
+ },
+ "risers/sharp_bass_riser_01.wav": {
+  "family": "risers",
+  "name": "sharp_bass_riser",
+  "variation": 1,
+  "duration": 2.5,
+  "peak": 2.443
+ },
+ "risers/sharp_bass_riser_02.wav": {
+  "family": "risers",
+  "name": "sharp_bass_riser",
+  "variation": 2,
+  "duration": 3.0,
+  "peak": 2.955
+ },
+ "risers/sharp_bass_riser_03.wav": {
+  "family": "risers",
+  "name": "sharp_bass_riser",
+  "variation": 3,
+  "duration": 4.0,
+  "peak": 3.971
+ },
+ "risers/metallic_riser_01.wav": {
+  "family": "risers",
+  "name": "metallic_riser",
+  "variation": 1,
+  "duration": 2.5,
+  "peak": 2.435
+ },
+ "risers/metallic_riser_02.wav": {
+  "family": "risers",
+  "name": "metallic_riser",
+  "variation": 2,
+  "duration": 3.0,
+  "peak": 2.935
+ },
+ "risers/metallic_riser_03.wav": {
+  "family": "risers",
+  "name": "metallic_riser",
+  "variation": 3,
+  "duration": 4.0,
+  "peak": 3.883
+ },
+ "risers/suspenseful_buildup_01.wav": {
+  "family": "risers",
+  "name": "suspenseful_buildup",
+  "variation": 1,
+  "duration": 4.0,
+  "peak": 3.971
+ },
+ "risers/suspenseful_buildup_02.wav": {
+  "family": "risers",
+  "name": "suspenseful_buildup",
+  "variation": 2,
+  "duration": 4.0,
+  "peak": 3.932
+ },
+ "risers/suspenseful_buildup_03.wav": {
+  "family": "risers",
+  "name": "suspenseful_buildup",
+  "variation": 3,
+  "duration": 4.0,
+  "peak": 3.893
+ },
+ "risers/suckback_riser_01.wav": {
+  "family": "risers",
+  "name": "suckback_riser",
+  "variation": 1,
+  "duration": 1.5,
+  "peak": 1.316
+ },
+ "risers/suckback_riser_02.wav": {
+  "family": "risers",
+  "name": "suckback_riser",
+  "variation": 2,
+  "duration": 2.0,
+  "peak": 1.972
+ },
+ "risers/suckback_riser_03.wav": {
+  "family": "risers",
+  "name": "suckback_riser",
+  "variation": 3,
+  "duration": 2.6,
+  "peak": 2.537
+ },
+ "hits/impact_hit_01.wav": {
+  "family": "hits",
+  "name": "impact_hit",
+  "variation": 1,
+  "duration": 4.21,
+  "peak": 0.013
+ },
+ "hits/impact_hit_02.wav": {
+  "family": "hits",
+  "name": "impact_hit",
+  "variation": 2,
+  "duration": 4.21,
+  "peak": 0.018
+ },
+ "hits/impact_hit_03.wav": {
+  "family": "hits",
+  "name": "impact_hit",
+  "variation": 3,
+  "duration": 4.21,
+  "peak": 0.023
+ },
+ "hits/bass_hit_01.wav": {
+  "family": "hits",
+  "name": "bass_hit",
+  "variation": 1,
+  "duration": 2.0,
+  "peak": 0.008
+ },
+ "hits/bass_hit_02.wav": {
+  "family": "hits",
+  "name": "bass_hit",
+  "variation": 2,
+  "duration": 2.0,
+  "peak": 0.008
+ },
+ "hits/bass_hit_03.wav": {
+  "family": "hits",
+  "name": "bass_hit",
+  "variation": 3,
+  "duration": 2.0,
+  "peak": 0.008
+ },
+ "hits/heavy_hit_01.wav": {
+  "family": "hits",
+  "name": "heavy_hit",
+  "variation": 1,
+  "duration": 5.01,
+  "peak": 0.136
+ },
+ "hits/heavy_hit_02.wav": {
+  "family": "hits",
+  "name": "heavy_hit",
+  "variation": 2,
+  "duration": 5.01,
+  "peak": 0.231
+ },
+ "hits/heavy_hit_03.wav": {
+  "family": "hits",
+  "name": "heavy_hit",
+  "variation": 3,
+  "duration": 5.01,
+  "peak": 0.008
+ },
+ "pack/whooshes/woosh.wav": {
+  "family": "whooshes",
+  "name": "woosh",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Woosh.WAV",
+  "use": "Clean, punchy standard whoosh. DEFAULT for slides, pans, zooms and scene-to-scene transitions.",
+  "duration": 0.697,
+  "peak": 0.15,
+  "onset": 0.02
+ },
+ "pack/whooshes/knife_draw.wav": {
+  "family": "whooshes",
+  "name": "knife_draw",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Knife Draw.WAV",
+  "use": "Sharp metallic swipe. Fast text/element slide-in, a 'cutting' reveal, wipe transitions.",
+  "duration": 1.045,
+  "peak": 0.25,
+  "onset": 0.02
+ },
+ "pack/whooshes/shutter_woosh.wav": {
+  "family": "whooshes",
+  "name": "shutter_woosh",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Grid Trend SFX/Shutter X Woosh.MP3",
+  "use": "Camera shutter + whoosh. Photo/b-roll grid transitions, photo flying in.",
+  "duration": 0.888,
+  "peak": 0.17,
+  "onset": 0.02
+ },
+ "pack/whooshes/granular_warp_01.wav": {
+  "family": "whooshes",
+  "name": "granular_warp_01",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Granular, Transform, Move, Splash, Warps (20).wav",
+  "use": "Granular warp, attack at the start then a tail. Element morphing/transforming, splash-in of a UI card.",
+  "duration": 2.067,
+  "peak": 0.05,
+  "onset": 0.02
+ },
+ "pack/whooshes/granular_warp_02.wav": {
+  "family": "whooshes",
+  "name": "granular_warp_02",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Granular, Transform, Move, Splash, Warps (40).wav",
+  "use": "Granular warp that swells into its peak. Morph/transform moves, smooth UI transitions.",
+  "duration": 1.168,
+  "peak": 1.03,
+  "onset": 0.08
+ },
+ "pack/whooshes/spin_flip.wav": {
+  "family": "whooshes",
+  "name": "spin_flip",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Spin, Rotation, Flip (1).wav",
+  "use": "Card flip, rotation, spinning element or number wheel.",
+  "duration": 1.168,
+  "peak": 0.41,
+  "onset": 0.02
+ },
+ "pack/whooshes/granular_combo.wav": {
+  "family": "whooshes",
+  "name": "granular_combo",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Granular Combo (26).wav",
+  "use": "Long (3 s) granular transition. Into a full-screen animation or a new chapter.",
+  "duration": 2.97,
+  "peak": 1.05,
+  "onset": 0.2
+ },
+ "pack/textures/mouse_click.wav": {
+  "family": "textures",
+  "name": "mouse_click",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Mouse Click.WAV",
+  "use": "Cursor clicks a button/link in UI. On the press frame.",
+  "duration": 0.511,
+  "peak": 0.13,
+  "onset": 0.04
+ },
+ "pack/textures/granular_button.wav": {
+  "family": "textures",
+  "name": "granular_button",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Granular, Button (11).wav",
+  "use": "Soft modern UI tap: toggle, button, chip, tab switch. DEFAULT for UI element pops.",
+  "duration": 0.234,
+  "peak": 0.13,
+  "onset": 0.02
+ },
+ "pack/textures/magnet.wav": {
+  "family": "textures",
+  "name": "magnet",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Magnet (2).wav",
+  "use": "Element snaps into place / locks in (0.3 s). Card landing, logo snapping.",
+  "duration": 0.3,
+  "peak": 0.19,
+  "onset": 0.16
+ },
+ "pack/textures/message_tone.wav": {
+  "family": "textures",
+  "name": "message_tone",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Message Tone.WAV",
+  "use": "Notification / chat bubble / message arrives.",
+  "duration": 0.952,
+  "peak": 0.25,
+  "onset": 0.06
+ },
+ "pack/textures/iphone_charging.wav": {
+  "family": "textures",
+  "name": "iphone_charging",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/iPhone Charging.WAV",
+  "use": "Phone/iOS UI appears, positive confirmation, something 'connects'.",
+  "duration": 0.998,
+  "peak": 0.63,
+  "onset": 0.06
+ },
+ "pack/textures/ding.wav": {
+  "family": "textures",
+  "name": "ding",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Ding.WAV",
+  "use": "Success, checkmark, conclusion reached, correct answer.",
+  "duration": 2.02,
+  "peak": 0.05,
+  "onset": 0.02
+ },
+ "pack/textures/mac_typing.wav": {
+  "family": "textures",
+  "name": "mac_typing",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Mac Typing.WAV",
+  "use": "Typing in a search bar / text field on screen.",
+  "duration": 1.115,
+  "peak": 0.89,
+  "onset": 0.04
+ },
+ "pack/textures/gear.wav": {
+  "family": "textures",
+  "name": "gear",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Gear.WAV",
+  "use": "Mechanical tick: letter-by-letter text, counter ticking, mechanism.",
+  "duration": 0.65,
+  "peak": 0.33,
+  "onset": 0.0
+ },
+ "pack/textures/timer.wav": {
+  "family": "textures",
+  "name": "timer",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Timer.WAV",
+  "use": "Clock ticking, countdown, deadline, 'time' topic.",
+  "duration": 1.927,
+  "peak": 1.03,
+  "onset": 0.04
+ },
+ "pack/textures/glitch_text_01.wav": {
+  "family": "textures",
+  "name": "glitch_text_01",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Glitch, Flicker, Text (25).wav",
+  "use": "Glitchy flicker. Text/number glitching in, tech reveal.",
+  "duration": 1.134,
+  "peak": 0.41,
+  "onset": 0.0
+ },
+ "pack/textures/glitch_text_02.wav": {
+  "family": "textures",
+  "name": "glitch_text_02",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Glitch, Flicker, Text (37).wav",
+  "use": "Glitchy flicker (variation). Text/number glitching in, tech reveal.",
+  "duration": 1.268,
+  "peak": 0.39,
+  "onset": 0.26
+ },
+ "pack/textures/shimmer.wav": {
+  "family": "textures",
+  "name": "shimmer",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Shimmer, Particles, Sparkle, Magic (7).wav",
+  "use": "Sparkle/shimmer. Premium highlight, glow sweep, 'magic' AI moment, big reveal (instead of choir).",
+  "duration": 3.033,
+  "peak": 0.03,
+  "onset": 0.0
+ },
+ "pack/textures/heartbeat.wav": {
+  "family": "textures",
+  "name": "heartbeat",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Heartbeat.WAV",
+  "use": "Tension, suspense, health/emotion topic. Low level.",
+  "duration": 2.067,
+  "peak": 0.43,
+  "onset": 0.0
+ },
+ "pack/textures/camera_shutter.wav": {
+  "family": "textures",
+  "name": "camera_shutter",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Camera Shutter.WAV",
+  "use": "Photo taken, flash transition, screenshot.",
+  "duration": 0.348,
+  "peak": 0.15,
+  "onset": 0.04
+ },
+ "pack/textures/camera_clicks.wav": {
+  "family": "textures",
+  "name": "camera_clicks",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Camera Clicks.WAV",
+  "use": "Photo taken (double click).",
+  "duration": 0.348,
+  "peak": 0.33,
+  "onset": 0.02
+ },
+ "pack/textures/camera_click_single.wav": {
+  "family": "textures",
+  "name": "camera_click_single",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Grid Trend SFX/Single Camera Click.MP3",
+  "use": "One photo pops into a grid.",
+  "duration": 0.209,
+  "peak": 0.11,
+  "onset": 0.02
+ },
+ "pack/textures/camera_click_dslr.wav": {
+  "family": "textures",
+  "name": "camera_click_dslr",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Grid Trend SFX/DSLR Camera Click.MP3",
+  "use": "Short DSLR click. Photo pop, clip-to-clip flash.",
+  "duration": 0.209,
+  "peak": 0.11,
+  "onset": 0.02
+ },
+ "pack/textures/camera_shutter_click.wav": {
+  "family": "textures",
+  "name": "camera_shutter_click",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Grid Trend SFX/Camera Shutter Click.MP3",
+  "use": "Shutter click. Photo pop, flash.",
+  "duration": 0.366,
+  "peak": 0.23,
+  "onset": 0.04
+ },
+ "pack/textures/camera_reflex.wav": {
+  "family": "textures",
+  "name": "camera_reflex",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Grid Trend SFX/Reflex Lens Clicks.MP3",
+  "use": "Reflex lens clicks. Photo pop with more body.",
+  "duration": 0.627,
+  "peak": 0.09,
+  "onset": 0.02
+ },
+ "pack/textures/camera_burst.wav": {
+  "family": "textures",
+  "name": "camera_burst",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Grid Trend SFX/Camera Burst.MP3",
+  "use": "Short burst. Several photos popping in fast.",
+  "duration": 0.444,
+  "peak": 0.37,
+  "onset": 0.02
+ },
+ "pack/textures/camera_rapid_fire.wav": {
+  "family": "textures",
+  "name": "camera_rapid_fire",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Grid Trend SFX/Rapid Fire Shutter.MP3",
+  "use": "Rapid-fire shutter (1.3 s). Photo grid filling up.",
+  "duration": 1.306,
+  "peak": 0.67,
+  "onset": 0.06
+ },
+ "pack/risers/reverse_crash.wav": {
+  "family": "risers",
+  "name": "reverse_crash",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Reverse Crash.WAV",
+  "use": "2 s reverse cymbal building into a cut. Peak = end \u2192 align 'end' on the transition frame.",
+  "duration": 1.997,
+  "peak": 1.87,
+  "onset": 0.44
+ },
+ "pack/risers/metallic_riser.wav": {
+  "family": "risers",
+  "name": "metallic_riser",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Metallic Riser.WAV",
+  "use": "1.65 s metallic build. Align 'end' on the transition frame.",
+  "duration": 1.649,
+  "peak": 1.39,
+  "onset": 0.0
+ },
+ "pack/risers/punch_stop_riser.wav": {
+  "family": "risers",
+  "name": "punch_stop_riser",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Punch Stop Riser.WAV",
+  "use": "Short 0.8 s build that stops dead. Hook \u2192 body cut, punchline.",
+  "duration": 0.813,
+  "peak": 0.71,
+  "onset": 0.22
+ },
+ "pack/hits/cinematic_impact.wav": {
+  "family": "hits",
+  "name": "cinematic_impact",
+  "source": "pack",
+  "origin": "Essentials SFX Pack/Cinematic Impact.WAV",
+  "use": "Big cinematic hit. The ONE loudest moment of the video, under a riser end.",
+  "duration": 2.299,
+  "peak": 0.67,
+  "onset": 0.0
+ },
+ "pack/hits/powerdown.wav": {
+  "family": "hits",
+  "name": "powerdown",
+  "source": "pack",
+  "origin": "Botanica Trial (10 SFX)/Slowdown, Impact, Powerdown (1).wav",
+  "use": "Impact that powers down. Negative turn, 'problem' moment, ending/shutdown.",
+  "duration": 2.067,
+  "peak": 0.03,
+  "onset": 0.0
+ }
+}

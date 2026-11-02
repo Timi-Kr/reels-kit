@@ -1,0 +1,322 @@
+{
+ "language": "hr",
+ "duration": 27.539,
+ "words": [
+  {
+   "w": "Ove",
+   "start": 0.82,
+   "end": 1.09,
+   "p": 0.995
+  },
+  {
+   "w": "tri",
+   "start": 1.09,
+   "end": 1.27,
+   "p": 0.988
+  },
+  {
+   "w": "greške",
+   "start": 1.27,
+   "end": 1.79,
+   "p": 0.999
+  },
+  {
+   "w": "čine",
+   "start": 1.79,
+   "end": 2.13,
+   "p": 0.998
+  },
+  {
+   "w": "da",
+   "start": 2.13,
+   "end": 2.31,
+   "p": 0.999
+  },
+  {
+   "w": "tvoji",
+   "start": 2.31,
+   "end": 2.65,
+   "p": 0.935
+  },
+  {
+   "w": "vide",
+   "start": 2.65,
+   "end": 2.91,
+   "p": 0.931
+  },
+  {
+   "w": "izgledaju",
+   "start": 2.91,
+   "end": 3.69,
+   "p": 0.841
+  },
+  {
+   "w": "amaterski.",
+   "start": 3.69,
+   "end": 4.51,
+   "p": 0.985
+  },
+  {
+   "w": "Evo",
+   "start": 6.307,
+   "end": 6.537,
+   "p": 0.987
+  },
+  {
+   "w": "što",
+   "start": 6.537,
+   "end": 6.797,
+   "p": 1.0
+  },
+  {
+   "w": "trebaš",
+   "start": 6.797,
+   "end": 7.297,
+   "p": 1.0
+  },
+  {
+   "w": "napraviti",
+   "start": 7.297,
+   "end": 7.937,
+   "p": 1.0
+  },
+  {
+   "w": "da",
+   "start": 7.937,
+   "end": 8.137,
+   "p": 0.994
+  },
+  {
+   "w": "tvoje",
+   "start": 8.137,
+   "end": 8.497,
+   "p": 0.998
+  },
+  {
+   "w": "animacije",
+   "start": 8.497,
+   "end": 9.257,
+   "p": 1.0
+  },
+  {
+   "w": "Evo",
+   "start": 10.081,
+   "end": 10.311,
+   "p": 0.989
+  },
+  {
+   "w": "što",
+   "start": 10.311,
+   "end": 10.611,
+   "p": 1.0
+  },
+  {
+   "w": "trebaš",
+   "start": 10.611,
+   "end": 11.111,
+   "p": 1.0
+  },
+  {
+   "w": "napraviti",
+   "start": 11.111,
+   "end": 11.751,
+   "p": 1.0
+  },
+  {
+   "w": "da",
+   "start": 11.751,
+   "end": 11.971,
+   "p": 0.999
+  },
+  {
+   "w": "tvoje",
+   "start": 11.971,
+   "end": 12.311,
+   "p": 1.0
+  },
+  {
+   "w": "animacije",
+   "start": 12.311,
+   "end": 13.071,
+   "p": 1.0
+  },
+  {
+   "w": "izgledaju",
+   "start": 13.071,
+   "end": 13.771,
+   "p": 1.0
+  },
+  {
+   "w": "profesionalno.",
+   "start": 13.771,
+   "end": 14.811,
+   "p": 0.998
+  },
+  {
+   "w": "Broj",
+   "start": 16.268,
+   "end": 16.658,
+   "p": 0.773
+  },
+  {
+   "w": "1.",
+   "start": 16.658,
+   "end": 16.938,
+   "p": 0.962
+  },
+  {
+   "w": "Prestani",
+   "start": 17.458,
+   "end": 17.978,
+   "p": 0.924
+  },
+  {
+   "w": "sve",
+   "start": 17.978,
+   "end": 18.278,
+   "p": 1.0
+  },
+  {
+   "w": "raditi",
+   "start": 18.278,
+   "end": 18.698,
+   "p": 1.0
+  },
+  {
+   "w": "preveliko.",
+   "start": 18.698,
+   "end": 19.358,
+   "p": 0.997
+  },
+  {
+   "w": "Smanji",
+   "start": 20.543,
+   "end": 20.993,
+   "p": 0.936
+  },
+  {
+   "w": "svaki",
+   "start": 20.993,
+   "end": 21.433,
+   "p": 0.999
+  },
+  {
+   "w": "element",
+   "start": 21.433,
+   "end": 21.913,
+   "p": 0.997
+  },
+  {
+   "w": "za",
+   "start": 21.913,
+   "end": 22.233,
+   "p": 0.999
+  },
+  {
+   "w": "25%.",
+   "start": 22.233,
+   "end": 23.393,
+   "p": 0.876
+  },
+  {
+   "w": "i",
+   "start": 24.362,
+   "end": 24.452,
+   "p": 0.868
+  },
+  {
+   "w": "gledaj",
+   "start": 24.452,
+   "end": 24.812,
+   "p": 0.999
+  },
+  {
+   "w": "koliko",
+   "start": 24.812,
+   "end": 25.312,
+   "p": 1.0
+  },
+  {
+   "w": "bolje",
+   "start": 25.312,
+   "end": 25.652,
+   "p": 1.0
+  },
+  {
+   "w": "izgleda.",
+   "start": 25.652,
+   "end": 26.263,
+   "p": 1.0
+  }
+ ],
+ "segments": [
+  {
+   "text": "Ove tri greške čine da tvoji vide izgledaju amaterski.",
+   "start": 0.82,
+   "end": 4.51
+  },
+  {
+   "text": "Evo što trebaš napraviti da tvoje animacije",
+   "start": 6.307,
+   "end": 9.257
+  },
+  {
+   "text": "Evo što trebaš napraviti da tvoje animacije izgledaju profesionalno.",
+   "start": 10.081,
+   "end": 14.811
+  },
+  {
+   "text": "Broj 1. Prestani sve raditi preveliko.",
+   "start": 16.268,
+   "end": 19.358
+  },
+  {
+   "text": "Smanji svaki element za 25%.",
+   "start": 20.543,
+   "end": 23.393
+  },
+  {
+   "text": "i gledaj koliko bolje izgleda.",
+   "start": 24.362,
+   "end": 26.263
+  }
+ ],
+ "silences": [
+  [
+   0.0,
+   0.82
+  ],
+  [
+   4.548,
+   6.307
+  ],
+  [
+   9.331,
+   10.081
+  ],
+  [
+   14.84,
+   16.268
+  ],
+  [
+   19.417,
+   20.543
+  ],
+  [
+   23.688,
+   24.362
+  ],
+  [
+   26.263,
+   27.539
+  ]
+ ],
+ "suspect": [
+  {
+   "w": "25%.",
+   "start": 22.233,
+   "end": 23.393,
+   "p": 0.876
+  }
+ ]
+}

@@ -1,0 +1,237 @@
+{
+ "language": "hr",
+ "duration": 15.981,
+ "words": [
+  {
+   "w": "Ove",
+   "start": 0.02,
+   "end": 0.29,
+   "p": 0.995
+  },
+  {
+   "w": "tri",
+   "start": 0.29,
+   "end": 0.47,
+   "p": 0.988
+  },
+  {
+   "w": "greške",
+   "start": 0.47,
+   "end": 0.99,
+   "p": 0.999
+  },
+  {
+   "w": "čine",
+   "start": 0.99,
+   "end": 1.33,
+   "p": 0.998
+  },
+  {
+   "w": "da",
+   "start": 1.33,
+   "end": 1.51,
+   "p": 0.999
+  },
+  {
+   "w": "tvoji",
+   "start": 1.51,
+   "end": 1.85,
+   "p": 0.935
+  },
+  {
+   "w": "vide",
+   "start": 1.85,
+   "end": 2.11,
+   "p": 0.931
+  },
+  {
+   "w": "izgledaju",
+   "start": 2.11,
+   "end": 2.89,
+   "p": 0.841
+  },
+  {
+   "w": "amaterski.",
+   "start": 2.89,
+   "end": 3.71,
+   "p": 0.985
+  },
+  {
+   "w": "Evo",
+   "start": 3.75,
+   "end": 3.98,
+   "p": 0.989
+  },
+  {
+   "w": "što",
+   "start": 3.98,
+   "end": 4.28,
+   "p": 1.0
+  },
+  {
+   "w": "trebaš",
+   "start": 4.28,
+   "end": 4.78,
+   "p": 1.0
+  },
+  {
+   "w": "napraviti",
+   "start": 4.78,
+   "end": 5.42,
+   "p": 1.0
+  },
+  {
+   "w": "da",
+   "start": 5.42,
+   "end": 5.64,
+   "p": 0.999
+  },
+  {
+   "w": "tvoje",
+   "start": 5.64,
+   "end": 5.98,
+   "p": 1.0
+  },
+  {
+   "w": "animacije",
+   "start": 5.98,
+   "end": 6.74,
+   "p": 1.0
+  },
+  {
+   "w": "izgledaju",
+   "start": 6.74,
+   "end": 7.44,
+   "p": 1.0
+  },
+  {
+   "w": "profesionalno.",
+   "start": 7.44,
+   "end": 8.48,
+   "p": 0.998
+  },
+  {
+   "w": "Broj",
+   "start": 8.52,
+   "end": 8.91,
+   "p": 0.773
+  },
+  {
+   "w": "1.",
+   "start": 8.91,
+   "end": 9.19,
+   "p": 0.962
+  },
+  {
+   "w": "Prestani",
+   "start": 9.23,
+   "end": 9.75,
+   "p": 0.924
+  },
+  {
+   "w": "sve",
+   "start": 9.75,
+   "end": 10.05,
+   "p": 1.0
+  },
+  {
+   "w": "raditi",
+   "start": 10.05,
+   "end": 10.47,
+   "p": 1.0
+  },
+  {
+   "w": "preveliko.",
+   "start": 10.47,
+   "end": 11.13,
+   "p": 0.997
+  },
+  {
+   "w": "Smanji",
+   "start": 11.17,
+   "end": 11.62,
+   "p": 0.936
+  },
+  {
+   "w": "svaki",
+   "start": 11.62,
+   "end": 12.06,
+   "p": 0.999
+  },
+  {
+   "w": "element",
+   "start": 12.06,
+   "end": 12.54,
+   "p": 0.997
+  },
+  {
+   "w": "za",
+   "start": 12.54,
+   "end": 12.86,
+   "p": 0.999
+  },
+  {
+   "w": "25%.",
+   "start": 12.86,
+   "end": 14.02,
+   "p": 0.876
+  },
+  {
+   "w": "i",
+   "start": 14.06,
+   "end": 14.15,
+   "p": 0.868
+  },
+  {
+   "w": "gledaj",
+   "start": 14.15,
+   "end": 14.51,
+   "p": 0.999
+  },
+  {
+   "w": "koliko",
+   "start": 14.51,
+   "end": 15.01,
+   "p": 1.0
+  },
+  {
+   "w": "bolje",
+   "start": 15.01,
+   "end": 15.35,
+   "p": 1.0
+  },
+  {
+   "w": "izgleda.",
+   "start": 15.35,
+   "end": 15.961,
+   "p": 1.0
+  }
+ ],
+ "segments": [
+  {
+   "text": "Ove tri greške čine da tvoji vide izgledaju amaterski.",
+   "start": 0.02,
+   "end": 3.71
+  },
+  {
+   "text": "Evo što trebaš napraviti da tvoje animacije izgledaju profesionalno.",
+   "start": 3.75,
+   "end": 8.48
+  },
+  {
+   "text": "Broj 1. Prestani sve raditi preveliko.",
+   "start": 8.52,
+   "end": 11.13
+  },
+  {
+   "text": "Smanji svaki element za 25%.",
+   "start": 11.17,
+   "end": 14.02
+  },
+  {
+   "text": "i gledaj koliko bolje izgleda.",
+   "start": 14.06,
+   "end": 15.961
+  }
+ ]
+}

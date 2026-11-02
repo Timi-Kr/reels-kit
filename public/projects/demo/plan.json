@@ -1,0 +1,79 @@
+{
+ "style": {
+  "accent": "#5C7A99",
+  "sansFont": "Creato Display",
+  "scriptFont": "Adobe Garamond",
+  "sansColor": "#F3F3F3",
+  "scriptColor": "#8FB3D9",
+  "bg": "warm"
+ },
+ "lines": [
+  {
+   "id": "L01",
+   "text": "Ove tri greške čine da tvoji vide izgledaju amaterski.",
+   "start": 0.02,
+   "end": 3.71,
+   "type": "ui",
+   "highlight": [
+    "tri",
+    "greške"
+   ],
+   "notes": "UI with three numbered circles, one per mistake"
+  },
+  {
+   "id": "L02",
+   "text": "Evo što trebaš napraviti da tvoje animacije izgledaju profesionalno.",
+   "start": 3.75,
+   "end": 8.48,
+   "type": "fullscreen",
+   "highlight": [
+    "profesionalno"
+   ],
+   "notes": "Cursor drags a slider from Amater to Profesionalac"
+  },
+  {
+   "id": "L03",
+   "text": "Broj 1.",
+   "start": 8.52,
+   "end": 9.19,
+   "type": "ui",
+   "highlight": [
+    "1"
+   ],
+   "notes": "Chapter UI: circle 1 fills in, chapter title under it"
+  },
+  {
+   "id": "L04",
+   "text": "Prestani sve raditi preveliko.",
+   "start": 9.23,
+   "end": 11.13,
+   "type": "captions",
+   "highlight": [
+    "preveliko"
+   ],
+   "notes": "punch-in zoom on face"
+  },
+  {
+   "id": "L05",
+   "text": "Smanji svaki element za 25%.",
+   "start": 11.17,
+   "end": 14.02,
+   "type": "halfscreen",
+   "highlight": [
+    "25%"
+   ],
+   "notes": "Play icon starts way too big, snaps 25% smaller"
+  },
+  {
+   "id": "L06",
+   "text": "i gledaj koliko bolje izgleda.",
+   "start": 14.06,
+   "end": 15.961,
+   "type": "captions",
+   "highlight": [
+    "bolje"
+   ],
+   "notes": ""
+  }
+ ]
+}

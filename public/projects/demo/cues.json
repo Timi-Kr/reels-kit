@@ -1,0 +1,18 @@
+[
+ {"track":"WHOOSHES","sound":"whooshes/deep_voice_02","event":112,"db":-12,"note":"L02 full screen scales in"},
+ {"track":"WHOOSHES","sound":"whooshes/short_01","event":165,"db":-12,"note":"cursor drags slider (fastest point)"},
+ {"track":"WHOOSHES","sound":"whooshes/hollow_01","event":253,"db":-12,"note":"back to talking head, chapter UI slides up"},
+ {"track":"WHOOSHES","sound":"whooshes/futuristic_02","event":336,"db":-11,"note":"L05 half screen slides down"},
+ {"track":"TEXTURES","sound":"textures/ui_click_01","event":12,"db":-7,"note":"chapter UI pops (hook)"},
+ {"track":"TEXTURES","sound":"textures/complex_mechanism_gizmo_01","event":14,"db":-8,"note":"three circles pop in sequence"},
+ {"track":"TEXTURES","sound":"textures/scifi_impact_02","event":110,"db":-7,"note":"new animation revealed"},
+ {"track":"TEXTURES","sound":"textures/ui_click_02","event":124,"db":-7,"note":"slider pops"},
+ {"track":"TEXTURES","sound":"textures/scifi_click_01","event":261,"db":-6,"note":"circle 1 fills"},
+ {"track":"TEXTURES","sound":"textures/digital_camera_click_01","event":282,"db":-7,"note":"punch-in zoom cut"},
+ {"track":"TEXTURES","sound":"textures/scifi_click_03","event":366,"db":-6,"note":"icon snaps 25% smaller"},
+ {"track":"TEXTURES","sound":"textures/success_reward_01","event":449,"db":-7,"note":"conclusion: 'bolje'"},
+ {"track":"RISERS","sound":"risers/sharp_bass_riser_01","event":109,"db":-5,"align":"end","note":"hook -> body"},
+ {"track":"RISERS","sound":"risers/metallic_riser_01","event":332,"db":-5,"align":"end","note":"build into the 25% example"},
+ {"track":"HITS","sound":"hits/impact_hit_01","event":109,"db":-6,"note":"under riser, lands L02"},
+ {"track":"HITS","sound":"hits/bass_hit_02","event":332,"db":-7,"note":"under metallic riser"}
+]
