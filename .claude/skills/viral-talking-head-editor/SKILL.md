@@ -36,6 +36,7 @@ The user should never need to know the steps or the prompts. As soon as this ski
 
 - Remotion studio: the root of this repo (the folder with `package.json`, `setup.sh` and `.claude/`). Claude Code is opened there; run all commands from there. Not set up yet (no `node_modules` / `.venv`)? Run `./setup.sh` first — see `README.md` and `references/studio-setup.md`.
 - Python: always `.venv/bin/python -I <script>` (venv has faster-whisper, numpy, scipy). Scripts: `S=.claude/skills/viral-talking-head-editor/scripts`.
+- Tools: `install.sh` puts Node, ffmpeg/ffprobe and Python in `.tools/` (no Homebrew) and sets PATH for Claude Code in `.claude/settings.local.json`. If `node`, `npx` or `ffmpeg` is "not found", start the command with `export PATH="$PWD/.tools/bin:$PWD/.tools/node/bin:$PATH" &&`. Nothing installed at all (no `.tools`, no `node_modules`)? Run `./install.sh` in the background (10–30 min) before step 1.
 - Each edit = `public/projects/<slug>/` (raw.*, transcript_raw.json, cuts.json, cut.mp4, transcript.json, plan.html, plan.json, edit.json, assets/).
 - Scene code = `src/projects/<slug>/index.tsx` (export `scenes`) — picked up automatically by `src/projects/registry.ts`, nothing to register.
 - `edit.json` drives everything — schema + building blocks in `references/edit-schema.md`.

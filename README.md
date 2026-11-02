@@ -3,23 +3,23 @@
 Claude odlučuje kako će edit izgledati, a **Remotion** ga renderira. Ti mu daješ raw video i ukus, a on reže, piše titlove, radi animacije i sound design.
 U repou su Remotion studio i dva skilla (`.claude/skills/`) koji rade čim otvoriš ovaj folder u Claude Codeu.
 
-## 0 · Instalacija u jednom promptu (najlakše)
+## 0 · Instalacija: jedan prompt
 
-Prvo prihvati GitHub pozivnicu za ovaj repo iz maila. Zatim otvori Claude desktop app → **Code**, odaberi bilo koji folder i zalijepi:
+Otvori Claude desktop app → **Code**, odaberi bilo koji folder (npr. Documents) i zalijepi:
 
 ```text
-Postavi mi Reels kit za editiranje videa. Napravi redom, bez preskakanja:
-1. Provjeri jesam li prijavljen na GitHub (gh auth status). Ako gh ne postoji, instaliraj ga preko Homebrewa (a Homebrew s brew.sh ako ga nemam). Ako nisam prijavljen, pokreni gh auth login i vodi me kroz prijavu.
-2. Kloniraj Timi-Kr/reels-kit u moj Documents folder. Ako dobiješ "not found", reci mi da prvo prihvatim GitHub pozivnicu iz maila.
-3. Instaliraj što fali (node, ffmpeg, python) preko brewa, pa u reels-kit folderu pokreni ./setup.sh i pričekaj da završi.
-4. Na kraju mi reci da otvorim novu sesiju u folderu Documents/reels-kit i tamo napišem: "Napravi viral edit od ovog videa".
+Pokreni ovu naredbu u pozadini i javi mi kad završi (traje 10–30 min):
+curl -fsSL https://raw.githubusercontent.com/Timi-Kr/reels-kit/main/install.sh | bash
 ```
 
-Traje ~10 min (skida se whisper model od ~1.6 GB), pa to napravi **prije workshopa**. Ako radije sam pokrećeš naredbe, slijedi korak 1.
+Ne treba ti Homebrew, lozinka ni GitHub račun. Kit se skine u **Documents/reels-kit**, a svi alati (Node, Python, ffmpeg) idu u taj folder.
+Kad završi, otvori **novu sesiju** u folderu `Documents/reels-kit` i napiši: *"Napravi viral edit od ovog videa"*.
 
-## 1 · Setup ručno (jednom, oko 10 min)
+Napravi to **prije workshopa**, jer se skida ~3 GB. Istim promptom kasnije i ažuriraš kit, a tvoji projekti ostaju.
 
-Treba ti Mac s [Homebrewom](https://brew.sh). Ako nešto od ovoga nemaš, instaliraj:
+## 1 · Setup ručno (ako već imaš Homebrew)
+
+Ako više voliš svoje alate, instaliraj ih brewom:
 
 ```bash
 brew install node ffmpeg python
@@ -76,4 +76,4 @@ Primjer projekta je `demo`. Tvoji projekti i snimke ostaju samo na tvom laptopu 
 - **"Version mismatch" upozorenje** koje pokazuje na `node_modules` izvan ovog foldera: obriši taj vanjski `node_modules`, jer nema veze s kitom.
 - **Transkripcija je spora**: prvi put skida model. Za 1 min videa normalno je 1–3 min na M-čipu.
 - **Font izgleda krivo**: script font je Cormorant Garamond (besplatan). Možeš izabrati drugi u planning pageu.
-- **Ažuriranje kita**: `git pull`, pa `npm ci` ako se promijenio `package.json`.
+- **Ažuriranje kita**: ponovi instalacijski prompt (ili `./install.sh` u folderu). Tvoji projekti ostaju.
