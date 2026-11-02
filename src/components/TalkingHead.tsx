@@ -44,6 +44,10 @@ export const TalkingHead: React.FC<{edit: Edit}> = ({edit}) => {
   const {zoom, fx, fy} = cameraAt(edit.camera, frame);
   const ui = sceneAmount(edit, frame, 'ui');
   const fullOn = edit.scenes.some((s) => s.type === 'fullscreen' && frame >= s.from && frame < s.to);
+  const capShade = edit.captions.reduce(
+    (m, g) => Math.max(m, interpolate(frame, [g.from - RAMP, g.from, g.to, g.to + RAMP], [0, 1, 1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})),
+    0,
+  );
   const halfScene = edit.scenes.find((s) => s.type === 'halfscreen' && frame >= s.from && frame < s.to);
   const faceY = halfScene?.faceY ?? 0.38;
 
@@ -85,8 +89,9 @@ export const TalkingHead: React.FC<{edit: Edit}> = ({edit}) => {
             }}
           />
         ) : null}
-        {/* soft bottom gradient so lower-third captions read */}
-        <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.35) 100%)'}} />
+        {/* soft bottom gradient so lower-third captions read — only while a caption is on screen, so the footage
+            keeps its original colours everywhere else (b-roll reels without captions never get it) */}
+        {capShade > 0 ? <AbsoluteFill style={{background: 'linear-gradient(180deg, rgba(0,0,0,0) 55%, rgba(0,0,0,0.35) 100%)', opacity: capShade}} /> : null}
       </div>
     </AbsoluteFill>
   );
